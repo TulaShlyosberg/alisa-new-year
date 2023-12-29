@@ -262,3 +262,22 @@
     justify-content: center;
 } 
 
+#budapest {
+    /* display: flex; */
+    font-size: 30pt;
+    color: aliceblue;
+    /* padding: 10%; */
+    height: 90vh;
+    width: 70%;
+    margin-top: 10vh;
+    margin-left: 15%;
+    flex-direction: column;
+    justify-content: space-around;
+    background-image: url("img/best_photo_budapest.jpg");
+}
+
+#budapest > div {
+    margin-top: 10vh;
+    margin-left: 10%;
+}
+
