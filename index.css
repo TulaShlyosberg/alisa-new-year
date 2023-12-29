@@ -1,0 +1,39 @@
+#page-1{
+    width: 100%;
+    height: 95vh;
+    background-color: rgb(55, 143, 198);
+    animation: page-1 1s linear;
+    animation-play-state: paused;
+    animation-delay: calc(var(--scroll) * -0.9s);
+    
+}
+
+@keyframes page-1 {
+    to {
+      background-color: rgb(19, 48, 97);
+    }
+}
+
+.colesium {
+    height: 50%;
+}
+
+
+#page-2 {
+    height: 95vh;
+    background-color: rgb(19, 48, 97);
+    animation: page-2 1s linear;
+    animation-play-state: paused;
+    animation-delay: calc(var(--scroll) * -0.9s);
+    animation-iteration-count: 1;
+}
+
+@keyframes page-2 {
+    to {
+      background-color: rgb(51, 182, 118);
+    }
+}
+
+.forum {
+    height: 50%;
+}

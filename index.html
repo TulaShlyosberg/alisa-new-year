@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <title>С Новым годом!</title>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script>
+            window.addEventListener('scroll', () => {
+                document.body.style.setProperty('--scroll', window.pageYOffset / (document.body.offsetHeight - window.innerHeight));
+            }, false);
+        </script>
+        <link rel="stylesheet" href="index.css">
+        <!-- <link rel="stylesheet" href="chaikas.css"> -->
+    </head>
+    <body>
+        <div id="page-1">
+            <img src="img/colesium.jpg" class="colesium"/>
+        </div>
+        <div id="page-2">
+            <img src="img/forum.jpg" class="forum"/>
+        </div>
+    </body>
+</html>
